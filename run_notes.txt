@@ -1,0 +1,1 @@
+docker run -p 8888:8888 --rm --name tensorflow-udacity -it -v C:\Users\ralph\Dropbox\udacity\deep_learning\:/notebooks gcr.io/tensorflow/udacity-assignments:1.0.0

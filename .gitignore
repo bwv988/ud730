@@ -1,1 +1,4 @@
 .idea
+*.tar.gz
+.ipynb*
+not*

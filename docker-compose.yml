@@ -1,0 +1,10 @@
+# FIXME: HOME env variable substitution that works on Linux, Mac and Windows.
+version: '2'
+services:
+    tensorflow:
+      image: gcr.io/tensorflow/udacity-assignments:1.0.0
+      container_name: tensorflow
+      ports:
+        - "8888:8888"
+      volumes:
+        - C:/Users/ralph/Dropbox/udacity/deep_learning/assignment1:/notebooks
